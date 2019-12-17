@@ -1,7 +1,7 @@
 # zmodload zsh/zprof
 plugins=(z git osx vi-mode per-directory-history dirhistory)
 
-export ZSH_THEME="arrow"
+export ZSH_THEME="agnoster"
 export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
