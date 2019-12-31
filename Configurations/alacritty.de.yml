@@ -21,19 +21,19 @@ draw_bold_text_with_bright_colors: true
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Hack regular
+    family: Hack
     # Style can be specified to pick a specific face.
     # style: Regular
 
   # The bold font face
   bold:
-    family: Hack bold
+    family: Hack
     # Style can be specified to pick a specific face.
     # style: Bold
 
   # The italic font face
   italic:
-    family: Hack italic
+    family: Hack
     # Style can be specified to pick a specific face.
     # style: Italic
 
@@ -256,20 +256,19 @@ key_bindings:
   - { key: H,        mods: Alt,     chars: "\x1bh"                       }
   - { key: N,        mods: Alt,     chars: "\x7e"                        } # ~
   - { key: E,        mods: Alt,     chars: "\x1be"                       }
-  - { key: Key7,     mods: Alt,     chars: "\x7C"                        } # |
-  - { key: Key7,     mods: Shift|Alt,     chars: "\x5C"                  } # \
   - { key: A,        mods: Alt,     chars: "\x1ba"                       } #
-  - { key: L,        mods: Alt,     chars: "\x40"                        } # @
-  - { key: Key5,     mods: Alt,     chars: "\x5B"                        } # [
-  - { key: Key6,     mods: Alt,     chars: "\x5D"                        } # ]
-  - { key: Key8,     mods: Alt,     chars: "\x7B"                        } # [
-  - { key: Key9,     mods: Alt,     chars: "\x7D"                        } # ]
-  - { key: Delete,                  chars: "\e[3~"                        } # delete
-  - { key: Equals,                  chars: "\xB4"                        } # ´
-  - { key: Equals,   mods: Shift,   chars: "\x60"                        } # `
+  - { key: Delete,                  chars: "\e[3~"                       } # delete
   - { key: Space,    mods: Alt,     chars: "⦸"                           } # ⦸
   - { key: Key0,     mods: Command, action: ResetFontSize                } # cmd + 0
   - { key: RBracket, mods: Command, action: IncreaseFontSize             } # cmd + +
   - { key: Slash,    mods: Command, action: DecreaseFontSize             } # cmd + -
+  - { key: 28,       mods: Alt,       chars: "{"                         }
+  - { key: 25,       mods: Alt,       chars: "}"                         }
+  - { key: 37,       mods: Alt,       chars: "@"                         }
+  - { key: 26,       mods: Alt|Shift, chars: "\\"                        }
+  - { key: 26,       mods: Alt,       chars: "|"                         }
+  - { key: 45,       mods: Alt,       chars: "~"                         }
+  - { key: 23,       mods: Alt,       chars: "["                         }
+  - { key: 22,       mods: Alt,       chars: "]"                         }
 
 hide_cursor_when_typing: true
